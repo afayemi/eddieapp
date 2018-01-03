@@ -7,21 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E8C12614A00B4317816C806 /* Pods_EddieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84E9D9AE6BEB494FAA5A5A5 /* Pods_EddieApp.framework */; };
+		AD1B44E61FDF16E5001C845E /* SchoolSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B44E51FDF16E5001C845E /* SchoolSelectViewController.swift */; };
+		AD1B44EC1FE2D3A5001C845E /* AddSchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B44EB1FE2D3A5001C845E /* AddSchoolsViewController.swift */; };
+		AD24288E1FFC03CE00D1E9D7 /* AddStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24288D1FFC03CE00D1E9D7 /* AddStudentsViewController.swift */; };
+		AD5E41421FCE079F00FB7767 /* blank-profile-picture-973461_640.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5E41411FCDC06700FB7767 /* blank-profile-picture-973461_640.png */; };
+		AD616B991FEA08B300B65B48 /* AdminSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD616B981FEA08B300B65B48 /* AdminSignInViewController.swift */; };
+		AD616B9B1FEA08D300B65B48 /* AdminSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD616B9A1FEA08D300B65B48 /* AdminSignUpViewController.swift */; };
+		AD616B9E1FEA2B0A00B65B48 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD616B9D1FEA2B0A00B65B48 /* School.swift */; };
+		AD7A39AF1FEDDC5B00CD2048 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A39AE1FEDDC5B00CD2048 /* HomeViewController.swift */; };
+		AD7A39B11FEDE4BC00CD2048 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A39B01FEDE4BC00CD2048 /* SchoolTableViewCell.swift */; };
+		AD9377B51FF411480005A493 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9377B41FF40F720005A493 /* Second.storyboard */; };
+		AD9377B61FF703280005A493 /* right arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B44EA1FDF1BDB001C845E /* right arrow.png */; };
+		AD9377B81FF703280005A493 /* StudentSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9377B71FF703280005A493 /* StudentSearchTableViewCell.swift */; };
+		AD9377BA1FF70CD40005A493 /* StudentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9377B91FF70CD40005A493 /* StudentSearchViewController.swift */; };
+		AD9377BC1FF70DEC0005A493 /* StudentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9377BB1FF70DEC0005A493 /* StudentUser.swift */; };
+		ADC9D2621FD2059100BE5060 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9D2611FD2059100BE5060 /* AuthService.swift */; };
+		ADC9D2651FDA2B2800BE5060 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9D2641FDA2B2800BE5060 /* AdminHomeViewController.swift */; };
+		ADC9D2671FDA2D3000BE5060 /* AdminStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC9D2661FDA2D3000BE5060 /* AdminStoryboard.storyboard */; };
 		ADED3DB91FBE21BA0081A839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DB81FBE21BA0081A839 /* AppDelegate.swift */; };
-		ADED3DBB1FBE21BA0081A839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DBA1FBE21BA0081A839 /* ViewController.swift */; };
 		ADED3DBE1FBE21BA0081A839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DBC1FBE21BA0081A839 /* Main.storyboard */; };
 		ADED3DC01FBE21BA0081A839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DBF1FBE21BA0081A839 /* Assets.xcassets */; };
 		ADED3DC31FBE21BA0081A839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DC11FBE21BA0081A839 /* LaunchScreen.storyboard */; };
+		ADED3DCB1FBE22540081A839 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DCA1FBE22540081A839 /* SignupViewController.swift */; };
+		ADED3DCD1FBE22620081A839 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DCC1FBE22620081A839 /* LoginViewController.swift */; };
+		ADED3DDA1FCA8FF60081A839 /* icons8-user.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DD41FCA8B9B0081A839 /* icons8-user.png */; };
+		ADED3DDB1FCA8FFD0081A839 /* icons8-gender_neutral_user.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DD71FCA8C640081A839 /* icons8-gender_neutral_user.png */; };
+		ADED3DDC1FCA90020081A839 /* icons8-home-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DD51FCA8C480081A839 /* icons8-home-selected.png */; };
+		ADED3DDD1FCA90050081A839 /* icons8-home.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DD01FCA8B770081A839 /* icons8-home.png */; };
+		ADED3DDE1FCA900A0081A839 /* icons8-search.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DD11FCA8B810081A839 /* icons8-search.png */; };
+		ADED3DE41FCAA1C60081A839 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DE31FCAA1C60081A839 /* CameraViewController.swift */; };
+		ADED3DE51FCAA2110081A839 /* icons8-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DE11FCAA0D30081A839 /* icons8-camera.png */; };
+		ADED3DE61FCAA2140081A839 /* icons8-camera_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DE21FCAA0D30081A839 /* icons8-camera_filled.png */; };
+		ADED3DE81FCAA2690081A839 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED3DE71FCAA2690081A839 /* ProfileViewController.swift */; };
+		ADED3DEE1FCBDA9E0081A839 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADED3DED1FCBD8D40081A839 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		119313EFE9C4EEED7DB8A92B /* Pods-EddieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EddieApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EddieApp/Pods-EddieApp.release.xcconfig"; sourceTree = "<group>"; };
+		A84E9D9AE6BEB494FAA5A5A5 /* Pods_EddieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EddieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1B44E51FDF16E5001C845E /* SchoolSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSelectViewController.swift; sourceTree = "<group>"; };
+		AD1B44EA1FDF1BDB001C845E /* right arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right arrow.png"; path = "../../../../com.visualpharm.Icons8/ios/Arrows/25/000000/right arrow.png"; sourceTree = "<group>"; };
+		AD1B44EB1FE2D3A5001C845E /* AddSchoolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSchoolsViewController.swift; sourceTree = "<group>"; };
+		AD24288D1FFC03CE00D1E9D7 /* AddStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentsViewController.swift; sourceTree = "<group>"; };
+		AD5E41411FCDC06700FB7767 /* blank-profile-picture-973461_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank-profile-picture-973461_640.png"; path = "../../../../Downloads/blank-profile-picture-973461_640.png"; sourceTree = "<group>"; };
+		AD616B981FEA08B300B65B48 /* AdminSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignInViewController.swift; sourceTree = "<group>"; };
+		AD616B9A1FEA08D300B65B48 /* AdminSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignUpViewController.swift; sourceTree = "<group>"; };
+		AD616B9D1FEA2B0A00B65B48 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		AD7A39AE1FEDDC5B00CD2048 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AD7A39B01FEDE4BC00CD2048 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SchoolTableViewCell.swift; path = ../../../../../.Trash/SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		AD9377B41FF40F720005A493 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		AD9377B71FF703280005A493 /* StudentSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSearchTableViewCell.swift; sourceTree = "<group>"; };
+		AD9377B91FF70CD40005A493 /* StudentSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSearchViewController.swift; sourceTree = "<group>"; };
+		AD9377BB1FF70DEC0005A493 /* StudentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUser.swift; sourceTree = "<group>"; };
+		ADC9D2611FD2059100BE5060 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		ADC9D2631FD7912B00BE5060 /* blank-profile-picture-973461_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank-profile-picture-973461_640.png"; path = "../../../../../Downloads/blank-profile-picture-973461_640.png"; sourceTree = "<group>"; };
+		ADC9D2641FDA2B2800BE5060 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		ADC9D2661FDA2D3000BE5060 /* AdminStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdminStoryboard.storyboard; sourceTree = "<group>"; };
 		ADED3DB51FBE21BA0081A839 /* EddieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EddieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADED3DB81FBE21BA0081A839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADED3DBA1FBE21BA0081A839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADED3DBD1FBE21BA0081A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADED3DBF1FBE21BA0081A839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADED3DC21FBE21BA0081A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADED3DC41FBE21BA0081A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADED3DCA1FBE22540081A839 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		ADED3DCC1FBE22620081A839 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADED3DCE1FCA8B570081A839 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home.png"; path = "../../../com.visualpharm.Icons8/ios/Popular Icons/25/000000/icons8-home.png"; sourceTree = "<group>"; };
+		ADED3DD01FCA8B770081A839 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home.png"; path = "../../../../com.visualpharm.Icons8/ios/Popular Icons/25/000000/icons8-home.png"; sourceTree = "<group>"; };
+		ADED3DD11FCA8B810081A839 /* icons8-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-search.png"; path = "../../../../com.visualpharm.Icons8/ios/Popular Icons/25/000000/icons8-search.png"; sourceTree = "<group>"; };
+		ADED3DD21FCA8B9B0081A839 /* icons8-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-marker.png"; path = "../../../../com.visualpharm.Icons8/ios/Maps/25/000000/icons8-marker.png"; sourceTree = "<group>"; };
+		ADED3DD31FCA8B9B0081A839 /* icons8-delete_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-delete_sign.png"; path = "../../../../com.visualpharm.Icons8/ios/Popular Icons/25/000000/icons8-delete_sign.png"; sourceTree = "<group>"; };
+		ADED3DD41FCA8B9B0081A839 /* icons8-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-user.png"; path = "../../../../com.visualpharm.Icons8/ios/Profile/25/000000/icons8-user.png"; sourceTree = "<group>"; };
+		ADED3DD51FCA8C480081A839 /* icons8-home-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home-selected.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Popular Icons/25/000000/icons8-home-selected.png"; sourceTree = "<group>"; };
+		ADED3DD61FCA8C480081A839 /* icons8-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-search.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Popular Icons/25/000000/icons8-search.png"; sourceTree = "<group>"; };
+		ADED3DD71FCA8C640081A839 /* icons8-gender_neutral_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-gender_neutral_user.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Profile/25/000000/icons8-gender_neutral_user.png"; sourceTree = "<group>"; };
+		ADED3DD81FCA8C640081A839 /* icons8-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-star.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Messaging/25/000000/icons8-star.png"; sourceTree = "<group>"; };
+		ADED3DD91FCA8C6E0081A839 /* icons8-contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-contacts.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Popular Icons/25/000000/icons8-contacts.png"; sourceTree = "<group>"; };
+		ADED3DDF1FCAA0A60081A839 /* icons8-instagram_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-instagram_new.png"; path = "../../../../com.visualpharm.Icons8/ios_glyphs/Logos/25/000000/icons8-instagram_new.png"; sourceTree = "<group>"; };
+		ADED3DE11FCAA0D30081A839 /* icons8-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-camera.png"; path = "../../../../com.visualpharm.Icons8/ios/Photo and Video/25/000000/icons8-camera.png"; sourceTree = "<group>"; };
+		ADED3DE21FCAA0D30081A839 /* icons8-camera_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-camera_filled.png"; path = "../../../../com.visualpharm.Icons8/ios/Photo and Video/25/000000/icons8-camera_filled.png"; sourceTree = "<group>"; };
+		ADED3DE31FCAA1C60081A839 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		ADED3DE71FCAA2690081A839 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ADED3DED1FCBD8D40081A839 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B46E12CAD8EB5CDA3A969765 /* Pods-EddieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EddieApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EddieApp/Pods-EddieApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +97,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8C12614A00B4317816C806 /* Pods_EddieApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5838786430459E53AC1DB23F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B46E12CAD8EB5CDA3A969765 /* Pods-EddieApp.debug.xcconfig */,
+				119313EFE9C4EEED7DB8A92B /* Pods-EddieApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD1B44E31FDF15BC001C845E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9D2641FDA2B2800BE5060 /* AdminHomeViewController.swift */,
+				ADED3DE71FCAA2690081A839 /* ProfileViewController.swift */,
+				ADED3DCA1FBE22540081A839 /* SignupViewController.swift */,
+				ADED3DE31FCAA1C60081A839 /* CameraViewController.swift */,
+				ADED3DCC1FBE22620081A839 /* LoginViewController.swift */,
+				AD1B44E51FDF16E5001C845E /* SchoolSelectViewController.swift */,
+				AD7A39B01FEDE4BC00CD2048 /* SchoolTableViewCell.swift */,
+				AD616B981FEA08B300B65B48 /* AdminSignInViewController.swift */,
+				AD616B9A1FEA08D300B65B48 /* AdminSignUpViewController.swift */,
+				AD7A39AE1FEDDC5B00CD2048 /* HomeViewController.swift */,
+				AD9377B71FF703280005A493 /* StudentSearchTableViewCell.swift */,
+				AD9377B91FF70CD40005A493 /* StudentSearchViewController.swift */,
+				AD24288D1FFC03CE00D1E9D7 /* AddStudentsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AD1B44E41FDF15CB001C845E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ADED3DBC1FBE21BA0081A839 /* Main.storyboard */,
+				ADC9D2661FDA2D3000BE5060 /* AdminStoryboard.storyboard */,
+				AD9377B41FF40F720005A493 /* Second.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AD1B44E91FDF19BB001C845E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD616B971FE9B06500B65B48 /* Admin View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B44EB1FE2D3A5001C845E /* AddSchoolsViewController.swift */,
+			);
+			path = "Admin View Controllers";
+			sourceTree = "<group>";
+		};
+		AD616B9C1FEA2ACF00B65B48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD616B9D1FEA2B0A00B65B48 /* School.swift */,
+				AD9377BB1FF70DEC0005A493 /* StudentUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ADED3DAC1FBE21BA0081A839 = {
 			isa = PBXGroup;
 			children = (
 				ADED3DB71FBE21BA0081A839 /* EddieApp */,
 				ADED3DB61FBE21BA0081A839 /* Products */,
+				5838786430459E53AC1DB23F /* Pods */,
+				E50DAC7739DABD64781BCB5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +188,52 @@
 		ADED3DB71FBE21BA0081A839 /* EddieApp */ = {
 			isa = PBXGroup;
 			children = (
+				AD616B9C1FEA2ACF00B65B48 /* Model */,
+				AD616B971FE9B06500B65B48 /* Admin View Controllers */,
+				AD1B44E91FDF19BB001C845E /* Views */,
+				AD1B44E41FDF15CB001C845E /* Storyboards */,
+				AD1B44E31FDF15BC001C845E /* View Controllers */,
 				ADED3DB81FBE21BA0081A839 /* AppDelegate.swift */,
-				ADED3DBA1FBE21BA0081A839 /* ViewController.swift */,
-				ADED3DBC1FBE21BA0081A839 /* Main.storyboard */,
+				ADC9D2611FD2059100BE5060 /* AuthService.swift */,
 				ADED3DBF1FBE21BA0081A839 /* Assets.xcassets */,
+				ADED3DCE1FCA8B570081A839 /* icons8-home.png */,
+				ADED3DCF1FCA8B650081A839 /* assets */,
 				ADED3DC11FBE21BA0081A839 /* LaunchScreen.storyboard */,
+				AD5E41411FCDC06700FB7767 /* blank-profile-picture-973461_640.png */,
 				ADED3DC41FBE21BA0081A839 /* Info.plist */,
+				ADED3DED1FCBD8D40081A839 /* GoogleService-Info.plist */,
 			);
 			path = EddieApp;
+			sourceTree = "<group>";
+		};
+		ADED3DCF1FCA8B650081A839 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9D2631FD7912B00BE5060 /* blank-profile-picture-973461_640.png */,
+				ADED3DD31FCA8B9B0081A839 /* icons8-delete_sign.png */,
+				AD1B44EA1FDF1BDB001C845E /* right arrow.png */,
+				ADED3DDF1FCAA0A60081A839 /* icons8-instagram_new.png */,
+				ADED3DE21FCAA0D30081A839 /* icons8-camera_filled.png */,
+				ADED3DE11FCAA0D30081A839 /* icons8-camera.png */,
+				ADED3DD51FCA8C480081A839 /* icons8-home-selected.png */,
+				ADED3DD71FCA8C640081A839 /* icons8-gender_neutral_user.png */,
+				ADED3DD81FCA8C640081A839 /* icons8-star.png */,
+				ADED3DD61FCA8C480081A839 /* icons8-search.png */,
+				ADED3DD91FCA8C6E0081A839 /* icons8-contacts.png */,
+				ADED3DD21FCA8B9B0081A839 /* icons8-marker.png */,
+				ADED3DD41FCA8B9B0081A839 /* icons8-user.png */,
+				ADED3DD11FCA8B810081A839 /* icons8-search.png */,
+				ADED3DD01FCA8B770081A839 /* icons8-home.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		E50DAC7739DABD64781BCB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84E9D9AE6BEB494FAA5A5A5 /* Pods_EddieApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADED3DC71FBE21BA0081A839 /* Build configuration list for PBXNativeTarget "EddieApp" */;
 			buildPhases = (
+				69DEDAFAD9512113D9142915 /* [CP] Check Pods Manifest.lock */,
 				ADED3DB11FBE21BA0081A839 /* Sources */,
 				ADED3DB21FBE21BA0081A839 /* Frameworks */,
 				ADED3DB31FBE21BA0081A839 /* Resources */,
+				DFBF85702E2ED3BEED392097 /* [CP] Embed Pods Frameworks */,
+				BA45234724086A2B0F7ADEBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +298,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADED3DE61FCAA2140081A839 /* icons8-camera_filled.png in Resources */,
+				ADED3DDD1FCA90050081A839 /* icons8-home.png in Resources */,
+				ADED3DDB1FCA8FFD0081A839 /* icons8-gender_neutral_user.png in Resources */,
+				AD9377B61FF703280005A493 /* right arrow.png in Resources */,
 				ADED3DC31FBE21BA0081A839 /* LaunchScreen.storyboard in Resources */,
+				ADED3DDE1FCA900A0081A839 /* icons8-search.png in Resources */,
+				ADED3DEE1FCBDA9E0081A839 /* GoogleService-Info.plist in Resources */,
+				AD9377B51FF411480005A493 /* Second.storyboard in Resources */,
 				ADED3DC01FBE21BA0081A839 /* Assets.xcassets in Resources */,
+				AD5E41421FCE079F00FB7767 /* blank-profile-picture-973461_640.png in Resources */,
+				ADED3DE51FCAA2110081A839 /* icons8-camera.png in Resources */,
+				ADED3DDA1FCA8FF60081A839 /* icons8-user.png in Resources */,
 				ADED3DBE1FBE21BA0081A839 /* Main.storyboard in Resources */,
+				ADC9D2671FDA2D3000BE5060 /* AdminStoryboard.storyboard in Resources */,
+				ADED3DDC1FCA90020081A839 /* icons8-home-selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69DEDAFAD9512113D9142915 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EddieApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA45234724086A2B0F7ADEBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EddieApp/Pods-EddieApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBF85702E2ED3BEED392097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EddieApp/Pods-EddieApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EddieApp/Pods-EddieApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADED3DB11FBE21BA0081A839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADED3DBB1FBE21BA0081A839 /* ViewController.swift in Sources */,
+				AD24288E1FFC03CE00D1E9D7 /* AddStudentsViewController.swift in Sources */,
+				ADED3DCD1FBE22620081A839 /* LoginViewController.swift in Sources */,
+				ADC9D2651FDA2B2800BE5060 /* AdminHomeViewController.swift in Sources */,
+				AD616B991FEA08B300B65B48 /* AdminSignInViewController.swift in Sources */,
+				ADED3DE41FCAA1C60081A839 /* CameraViewController.swift in Sources */,
+				ADED3DE81FCAA2690081A839 /* ProfileViewController.swift in Sources */,
+				AD7A39AF1FEDDC5B00CD2048 /* HomeViewController.swift in Sources */,
+				AD1B44E61FDF16E5001C845E /* SchoolSelectViewController.swift in Sources */,
+				AD9377B81FF703280005A493 /* StudentSearchTableViewCell.swift in Sources */,
+				AD9377BC1FF70DEC0005A493 /* StudentUser.swift in Sources */,
+				AD9377BA1FF70CD40005A493 /* StudentSearchViewController.swift in Sources */,
+				AD616B9E1FEA2B0A00B65B48 /* School.swift in Sources */,
+				AD616B9B1FEA08D300B65B48 /* AdminSignUpViewController.swift in Sources */,
+				AD7A39B11FEDE4BC00CD2048 /* SchoolTableViewCell.swift in Sources */,
 				ADED3DB91FBE21BA0081A839 /* AppDelegate.swift in Sources */,
+				ADED3DCB1FBE22540081A839 /* SignupViewController.swift in Sources */,
+				ADC9D2621FD2059100BE5060 /* AuthService.swift in Sources */,
+				AD1B44EC1FE2D3A5001C845E /* AddSchoolsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +537,7 @@
 		};
 		ADED3DC81FBE21BA0081A839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46E12CAD8EB5CDA3A969765 /* Pods-EddieApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +552,7 @@
 		};
 		ADED3DC91FBE21BA0081A839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119313EFE9C4EEED7DB8A92B /* Pods-EddieApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
